@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 1
+names: ['helmet']
+
+roboflow:
+  workspace: kmitl-prince-of-chumphon-campus
+  project: helmet01-lihwg
+  version: 2
+  license: Public Domain
+  url: https://universe.roboflow.com/kmitl-prince-of-chumphon-campus/helmet01-lihwg/dataset/2
